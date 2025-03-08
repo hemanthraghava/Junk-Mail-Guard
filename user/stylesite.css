@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    background-image: url('https://static.toiimg.com/thumb/msid-111755773,width-1280,height-720,resizemode-4/111755773.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    width: 50vw;
+    min-height: 50vh;
+    background-color: rgba(255, 255, 255, 0.925); 
+    border-radius: 10px;
+    box-shadow: 1 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hghg {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.result {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.spam {
+  color: red;
+  background-color: #ffebeb;
+  border: 2px solid red;
+}
+
+.spam:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.not-spam {
+  color: green;
+  background-color: #e6ffe6;
+  border: 2px solid green;
+}
+
+.not-spam:hover {
+  box-shadow: 0 0 10px green;
+}
