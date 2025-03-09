@@ -1,4 +1,3 @@
-
 # Junk Mail Guard
 
 Machine Learning-Powered Spam Detection Web App
@@ -81,8 +80,7 @@ Navigating  to http://localhost:5000 in your browser
  
 ## Contributing
 
-Contributions are always welcome!
- feel free to If you'd like to improve the project and feel free to fork the repository, make changes, 
+Contributions are always welcome! feel free to If you'd like to improve the project and feel free to fork the repository, make changes, 
  and submit a pull request
 
 
